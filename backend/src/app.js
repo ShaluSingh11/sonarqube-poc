@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const employeeRoutes = require("./routes/employeeRoutes");
+const reportGenerator = require("./legacy/reportGenerator");
 
 const app = express();
 
