@@ -7,6 +7,13 @@
     "start": "node index.js",
     "test": "jest"
   },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageDirectory": "coverage"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,6 +23,7 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "jest": "^30.5.1"
+    "jest": "^30.5.1",
+    "supertest": "^7.2.2"
   }
 }
